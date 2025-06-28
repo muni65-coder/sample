@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>natural house</title>
+    <meta name="description" content="natural houseはこだわった木材を使用して、お客様の一生の住まいをともに作る住宅メーカーです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="sub-header">
+            <h1><a href="index.html"><img src="img/logo.svg" alt="logo"></a></h1>
+            <div class="sub-toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="works.html">WORKS</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="sub-contents">
+            <div class="page-title">
+                <h2>お問い合わせ</h2>
+                <p>contact</p>
+            </div>
+        </div>
+        <section class="contact-form">
+            <form action="#" method="post">
+                <p>完成見学会　参加申込</p>
+                <div class="request-item">
+                    <div class="request">
+                        <label for="request">申し込む<input type="checkbox" id="request" name="request" value="yes"></label>
+                    </div>
+                    <div class="request-options">
+                        <label for="date">希望日時</label>
+                        <div class="select-options">
+                            <select name="date" id="date">
+                                <option value="">選択してください</option>
+                                <option value="2025-05-31">５月３１日（土）</option>
+                                <option value="2025-06-01">６月１日（日）</option>
+                            </select>
+                            <select name="time" id="time">
+                                <option value="">選択してください</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="10:00">12:00</option>
+                                <option value="11:00">13:00</option>
+                                <option value="10:00">14:00</option>
+                                <option value="11:00">15:00</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <label for="detail">お問い合わせ内容（見学会申し込みの場合、記入は不要です。）</label>
+                <textarea name="detail" id="detail"></textarea>
+                <label for="name"><span>必 須</span>お名前（漢字）</label>
+                <input type="text" id="name">
+                <label for="read-name"><span>必 須</span>お名前（ふりがな）</label>
+                <input type="text" id="read-name">
+                <label for="mail"><span>必 須</span>メールアドレス</label>
+                <input type="text" id="mail">
+                <label for="tel"><span>必 須</span>電話番号</label>
+                <input type="text" id="tel">
+                <div class="document">
+                    <label for="send">資料請求</label>
+                    <div class="document-send">
+                        <label for="send"><input type="checkbox" id="send" name="send" value="yes">資料送付を希望する</label>
+                        <!-- <label for="no-send"><input type="checkbox" id="no-send" name="no-send"
+                                value="no">資料送付を希望しない</label> -->
+
+                    </div>
+                    <p>資料送付を希望される場合は、以下の項目をご入力ください。</p>
+                </div>
+
+                <label for="address-number">郵便番号</label>
+                <input type="text" id="address-number">
+                <label for="address">住所</label>
+                <input type="text" id="address">
+
+                <button type="submit">送　信</button>
+            </form>
+        </section>
+        <section class="phone-contact">
+            <div class="phone-contact-text">
+                <p>お電話でのお問い合わせ<br>
+                    <span>（平日　９：００〜１６：００）</span>
+                </p>
+            </div>
+            <div class="phone-number">
+                <div class="phone-number-image">
+                    <img src="img/phone-icon.png" alt="phone">
+                </div>
+                <p>12-3456-7890</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="footer-nav">
+            <a href="index.html" class="link footer-logo"><img src="img/logo.svg" alt="logo"></a>
+            <ul>
+                <li><a href="about.html" class="link">ABOUT</a></li>
+                <li><a href="works.html" class="link">WORKS</a></li>
+                <li><a href="event.html" class="link">EVENT</a></li>
+                <li><a href="#" class="insta-icon"><img src="img/hugeicons_instagram.png" alt="instagram"></a></li>
+            </ul>
+        </nav>
+        <p>&copy;natural house co.Ltd</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+
+
+
+
+
+
+</html>
