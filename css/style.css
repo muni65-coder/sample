@@ -1170,9 +1170,12 @@ footer p {
     margin-top: 20px;
   }
 
+  .garage-sp p {
+    font-size: 10px;
+
   .garage-detail {
     background-color: #1fe0;
-    padding: 0 10%;
+    padding: 0;
     margin-top: 0;
     text-align: left;
   }
